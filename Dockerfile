@@ -7,3 +7,4 @@ ENV DEBIAN_FRONTEND noninteractive
 WORKDIR /data/
 
 RUN pip install requests
+RUN pip install fake-useragent
