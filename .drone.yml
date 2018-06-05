@@ -1,0 +1,10 @@
+pipeline:
+  build-image:
+    image: docker
+    commands:
+      - docker build -t python .
+
+notify:
+  email:
+    recipients:
+      - mail@danielrippen.de
